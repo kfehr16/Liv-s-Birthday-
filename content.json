@@ -1,0 +1,76 @@
+{
+  "siteTitle": "For Liv",
+  "welcomeMessage": "Happy birthday to my favorite person. This little corner of the internet is just for you — come in and look around.",
+  "lastUpdated": "2026-09-18",
+  "openWhen": [
+    {
+      "id": "sad",
+      "label": "Open when you're sad",
+      "message": "Hey. I know things feel heavy right now, but you are so loved and this feeling won't last forever. Call me if you need to — I'll pick up.",
+      "image": null,
+      "link": null
+    },
+    {
+      "id": "happy",
+      "label": "Open when you're happy",
+      "message": "I love that you're happy right now. Tell me everything about it later — I want to hear all the details.",
+      "image": null,
+      "link": null
+    },
+    {
+      "id": "miss-me",
+      "label": "Open when you miss me",
+      "message": "I miss you too, more than you know. We'll be together again soon. Until then, here's a little piece of me.",
+      "image": null,
+      "link": null
+    },
+    {
+      "id": "laugh",
+      "label": "Open when you need a laugh",
+      "message": "Remember that one time we couldn't stop laughing over absolutely nothing? Think about that. You're welcome.",
+      "image": null,
+      "link": null
+    },
+    {
+      "id": "cant-sleep",
+      "label": "Open when you can't sleep",
+      "message": "Close your eyes. Picture somewhere calm — maybe somewhere we've been together. I'm sending you the sleepiest thoughts I can.",
+      "image": null,
+      "link": null
+    },
+    {
+      "id": "celebrate",
+      "label": "Open when you want to celebrate",
+      "message": "Let's go! Whatever it is, I'm proud of you and I want to celebrate every single win with you, big or small.",
+      "image": null,
+      "link": null
+    }
+  ],
+  "memories": [
+    {
+      "date": "2024-01-01",
+      "caption": "Placeholder caption — replace with a real memory",
+      "image": "images/placeholder-1.svg"
+    },
+    {
+      "date": "2024-06-15",
+      "caption": "Another placeholder — swap in a favorite photo",
+      "image": "images/placeholder-2.svg"
+    },
+    {
+      "date": "2024-12-25",
+      "caption": "One more placeholder — add as many as you'd like",
+      "image": "images/placeholder-3.svg"
+    }
+  ],
+  "letters": [
+    {
+      "title": "Happy Birthday",
+      "body": "Placeholder letter text — replace with your own words.\n\nYou can use line breaks like this to separate paragraphs, just like a real letter."
+    },
+    {
+      "title": "Just Because",
+      "body": "Placeholder letter text for a second note.\n\nAdd as many letters as you want — each one just needs a title and a body in content.json."
+    }
+  ]
+}

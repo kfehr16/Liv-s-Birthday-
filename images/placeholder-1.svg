@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#D8A7A0"/>
+  <rect x="24" y="24" width="752" height="552" fill="none" stroke="#FBF6F0" stroke-width="2" stroke-dasharray="6 10"/>
+  <text x="400" y="310" font-family="Georgia, serif" font-size="32" fill="#FBF6F0" text-anchor="middle">add a photo here</text>
+</svg>
