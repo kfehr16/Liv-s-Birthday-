@@ -77,7 +77,6 @@
     const titleEl = document.getElementById('note-card-title');
     const messageEl = document.getElementById('note-card-message');
     const imageEl = document.getElementById('note-card-image');
-    const linkEl = document.getElementById('note-card-link');
 
     titleEl.textContent = card.label || '';
     messageEl.textContent = card.message || '';
@@ -89,14 +88,6 @@
     } else {
       imageEl.hidden = true;
       imageEl.removeAttribute('src');
-    }
-
-    if (card.link) {
-      linkEl.href = card.link;
-      linkEl.hidden = false;
-    } else {
-      linkEl.hidden = true;
-      linkEl.removeAttribute('href');
     }
 
     showOverlay(overlay);

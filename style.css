@@ -378,17 +378,6 @@ button {
   margin: 0 auto 1rem;
 }
 
-.note-card__link {
-  display: inline-block;
-  color: var(--color-primary-dark);
-  font-weight: 700;
-  text-decoration: underline;
-}
-
-.note-card__link[hidden] {
-  display: none;
-}
-
 .lightbox {
   max-width: 720px;
   padding: 1.5rem;
