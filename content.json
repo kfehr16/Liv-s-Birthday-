@@ -2,6 +2,7 @@
   "siteTitle": "For Liv",
   "welcomeMessage": "Happy birthday to my favorite person. This little corner of the internet is just for you — come in and look around.",
   "lastUpdated": "2026-09-18",
+  "birthdayNote": "Happy Birthday note text goes here",
   "openWhen": [
     {
       "id": "sad",
@@ -61,16 +62,6 @@
       "date": "2024-12-25",
       "caption": "One more placeholder — add as many as you'd like",
       "image": "images/placeholder-3.svg"
-    }
-  ],
-  "letters": [
-    {
-      "title": "Happy Birthday",
-      "body": "Placeholder letter text — replace with your own words.\n\nYou can use line breaks like this to separate paragraphs, just like a real letter."
-    },
-    {
-      "title": "Just Because",
-      "body": "Placeholder letter text for a second note.\n\nAdd as many letters as you want — each one just needs a title and a body in content.json."
     }
   ]
 }
