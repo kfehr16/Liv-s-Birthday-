@@ -1,48 +1,50 @@
 {
-  "siteTitle": "For Liv",
+  "siteTitle": "For Livi",
   "welcomeMessage": "Happy birthday to my favorite person. This little corner of the internet is just for you — come in and look around.",
   "lastUpdated": "2026-09-18",
-  "birthdayNote": "Happy Birthday note text goes here",
+  "birthdayHeading": "Happy 26th Birthday Livi",
+  "birthdayNote": "Happy fucking Birthday Livi. You are officially past 25 holy shit. God it feels like we're getting so old but there's no one I would rather get old with. We're not actually thaaaat old, I mean look at Troy, still the life of the party - definitely going to be us in our late 30s.\n\nIn all seriousness though, you've had one hell of a year and I hope you take this weekend to have some damn fun without all the pressure of a huge party involved. You're such an incredible friend and I'm so grateful to have you in my life, even through our ups and downs there's no one quite like you that I've really connected with. I'm quite confident that 26 will be full of amazing adventures and opportunities for you. Cheers to 26, make sure to have a shot for me. Love you always.❤️",
+  "openWhenIntro": "These notes are some thoughts, advice, opinions, words of wisdom, whatever you want to call it but i wanted to capture them in one place so you always have something to come back to. Open them all now (im not looking lol) or save them as a surprise for when youre feeling these ways, whatever you choose I hope that my words can help you feel at leeaaast 5% better.",
   "openWhen": [
     {
-      "id": "sad",
-      "label": "Open when you're sad",
-      "message": "Hey. I know things feel heavy right now, but you are so loved and this feeling won't last forever. Call me if you need to — I'll pick up.",
+      "id": "annoyed-with-troy",
+      "label": "When you're annoyed with Troy",
+      "message": "I know. I know. I know. Let's take a deep breath here - lol that probably sounds so annoying - but seriously a couple deep breaths. Men can be damn annoying, feels like they don't understand anything and to be honest sometimes I think our species could not be more opposite… buuuut thats why we have our girls to rant to because we just get it.\n\nTroy is pretty damn awesome and I know he loves the absolute shit out of you and will support you in absolutely anything you want to pursue till the end of time (ok there may be a limit there but you know what im getting at). Take your time, stay a little annoyed but just remember that.",
       "image": null,
       "link": null
     },
     {
-      "id": "happy",
-      "label": "Open when you're happy",
-      "message": "I love that you're happy right now. Tell me everything about it later — I want to hear all the details.",
+      "id": "miss-home",
+      "label": "When you miss home",
+      "message": "This one is fucking hard especially when you dont have a “home base,” and I know I can't exactly relate but honestly I dont think i need to. The concept of home to me isn't necessarily one specific place, its more of a feeling. So my best advice is to try and think about what that feeling is for you - a couple options to go off of though: go find a butter tart (i know it won't be as good as Dyments, but it may do the trick), listen to some terrible country music and smile about the good ol days (writing this thinking of Boots&Hearts lol), or just have a laugh about all the dumb shit we did growing up - how did we even survive.\n\nSometimes even just calling some of the people I love helps even if it seems silly, but make sure to carve out just 5 mins to call Shelly, or Liam, or John because I know even just hearing their voices might make you feel better - but as always, you know im one call away too.",
       "image": null,
       "link": null
     },
     {
-      "id": "miss-me",
-      "label": "Open when you miss me",
-      "message": "I miss you too, more than you know. We'll be together again soon. Until then, here's a little piece of me.",
+      "id": "overwhelmed",
+      "label": "When you feel really overwhelmed",
+      "message": "Holy fuck is this like the worst feeling ever - i've been here sooo many times and to be honest i've really noticed a pattern that this shit happens when im gonna get my period (hormones are aaaallll over the place), so check in with that and give yourself a little grace. Either way, period or no period, I know you think you can do it all but remember that you're only one person, so lean on Troy, lean on your team, lean on the people around you. Prioritize what matters most, whats gonna move the needle (if its work related, which im 95% sure it probably is) and don't sweat the small stuff (easier said than done, trust me i know, but sometimes a little reminder helps). Oh also, deep breaths.",
       "image": null,
       "link": null
     },
     {
-      "id": "laugh",
-      "label": "Open when you need a laugh",
-      "message": "Remember that one time we couldn't stop laughing over absolutely nothing? Think about that. You're welcome.",
-      "image": null,
-      "link": null
-    },
-    {
-      "id": "cant-sleep",
-      "label": "Open when you can't sleep",
-      "message": "Close your eyes. Picture somewhere calm — maybe somewhere we've been together. I'm sending you the sleepiest thoughts I can.",
+      "id": "feeling-down",
+      "label": "When you're feeling down",
+      "message": "Cry, just cry - have a good ol ugly cry. Tears are valid and okay and it feels so damn good to just let it out. But I know sometimes there's also not really anything to cry about so if you're opening this and you're like bitch I don't wanna cry then okay. I know you struggle sometimes with depression so if it's one of those times and you're just feeling in a rut then screw the crying. The general feeling of sadness and not knowing why you're sad is so frustrating - but it's okay to rot in bed, be mopey, eat a whole bag of chips, not want to do anything, those are all things that are 110% okay, even if you're beating yourself up over it. When you're feeling maybe even 1% better, try to go for a walk, or go to the gym, get some endorphins and dopamine flowing into that brain. Just remember how loved and important you are to so many people, especially me, love you livi.",
       "image": null,
       "link": null
     },
     {
       "id": "celebrate",
-      "label": "Open when you want to celebrate",
-      "message": "Let's go! Whatever it is, I'm proud of you and I want to celebrate every single win with you, big or small.",
+      "label": "When you want to celebrate an accomplishment (even if you don't feel like it's that great)",
+      "message": "WOOOHOOOO!!!! GO LIVI GO LIVI GO LIVI GO! FUCKING CRUSHING IT.\n\nI think we both have a really hard time celebrating things that we accomplish because maybe we just don't feel like it's that great or good enough. But its so damn important to celebrate this shit because whats the damn point. What's the point in all the effort, emotion, hustle, etc. if we don't get to take the time to celebrate the fact that we did it. I know you've had an insane few years of growing, building and exceeding and maybe some of the accomplishments don't feel that big anymore but sometimes a little perspective helps. Look at yourself and all that you've built while growing yourself as an amazing human, friend, and daughter. I think little livi would be damn proud so remember that.",
+      "image": null,
+      "link": null
+    },
+    {
+      "id": "need-a-laugh",
+      "label": "When you need a laugh",
+      "message": "Remember that time when we got kicked out of Serenas cottage when we thought we were invited… ya just gonna leave that here.",
       "image": null,
       "link": null
     }

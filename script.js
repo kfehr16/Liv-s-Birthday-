@@ -18,7 +18,7 @@
     if (content) {
       renderWelcome(content);
       renderBirthdayNote(content);
-      renderOpenWhen(content.openWhen || []);
+      renderOpenWhen(content);
       renderMemories(content.memories || []);
       renderFooter(content);
     }
@@ -54,10 +54,14 @@
 
   // ---------- Open When cards ----------
 
-  function renderOpenWhen(cards) {
+  function renderOpenWhen(content) {
+    const introEl = document.getElementById('open-when-intro');
+    introEl.textContent = content.openWhenIntro || '';
+
     const grid = document.getElementById('open-when-grid');
     grid.innerHTML = '';
 
+    const cards = content.openWhen || [];
     cards.forEach((card) => {
       const btn = document.createElement('button');
       btn.type = 'button';
@@ -164,7 +168,11 @@
   // ---------- Happy Birthday Note ----------
 
   function renderBirthdayNote(content) {
+    const titleEl = document.getElementById('birthday-note-title');
     const messageEl = document.getElementById('birthday-note-message');
+    if (content.birthdayHeading) {
+      titleEl.textContent = content.birthdayHeading;
+    }
     messageEl.textContent = content.birthdayNote || '';
   }
 
