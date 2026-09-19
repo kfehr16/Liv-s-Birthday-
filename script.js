@@ -47,7 +47,7 @@
   function setupComeInButton() {
     const btn = document.getElementById('come-in-btn');
     btn.addEventListener('click', () => {
-      const target = document.getElementById('open-when');
+      const target = document.getElementById('birthday-note');
       target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   }
