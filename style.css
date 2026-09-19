@@ -224,7 +224,7 @@ button {
 }
 
 .memory-card__image-wrap {
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 3 / 4;
   overflow: hidden;
   background: var(--color-accent);
 }
@@ -238,22 +238,6 @@ button {
 
 .memory-card:hover .memory-card__image-wrap img {
   transform: scale(1.05);
-}
-
-.memory-card__body {
-  padding: 0.9rem 1rem 1.1rem;
-}
-
-.memory-card__date {
-  display: block;
-  font-size: 0.8rem;
-  color: var(--color-text-soft);
-  margin-bottom: 0.25rem;
-}
-
-.memory-card__caption {
-  margin: 0;
-  font-size: 0.95rem;
 }
 
 /* ---------- Happy Birthday Note ---------- */
@@ -385,14 +369,9 @@ button {
 
 .lightbox__image {
   border-radius: calc(var(--radius) - 6px);
-  margin: 0 auto 0.75rem;
+  margin: 0 auto;
   max-height: 70vh;
   object-fit: contain;
-}
-
-.lightbox__caption {
-  margin: 0;
-  color: var(--color-text-soft);
 }
 
 .overlay__close {

@@ -50,20 +50,14 @@
     }
   ],
   "memories": [
-    {
-      "date": "2024-01-01",
-      "caption": "Placeholder caption — replace with a real memory",
-      "image": "images/placeholder-1.svg"
-    },
-    {
-      "date": "2024-06-15",
-      "caption": "Another placeholder — swap in a favorite photo",
-      "image": "images/placeholder-2.svg"
-    },
-    {
-      "date": "2024-12-25",
-      "caption": "One more placeholder — add as many as you'd like",
-      "image": "images/placeholder-3.svg"
-    }
+    "images/memory-01.jpg",
+    "images/memory-02.jpg",
+    "images/memory-03.jpg",
+    "images/memory-04.jpg",
+    "images/memory-05.jpg",
+    "images/memory-06.jpg",
+    "images/memory-07.jpg",
+    "images/memory-08.jpg",
+    "images/memory-09.jpg"
   ]
 }
