@@ -2,7 +2,7 @@
   "siteTitle": "For Livi",
   "welcomeMessage": "Happy birthday to my favorite person. This little corner of the internet is just for you — come in and look around.",
   "lastUpdated": "2026-09-18",
-  "birthdayHeading": "Happy 26th Birthday Livi",
+  "birthdayHeading": "Happy Birthday Livi",
   "birthdayNote": "Happy fucking Birthday Livi. You are officially past 25 holy shit. God it feels like we're getting so old but there's no one I would rather get old with. We're not actually thaaaat old, I mean look at Troy, still the life of the party - definitely going to be us in our late 30s.\n\nIn all seriousness though, you've had one hell of a year and I hope you take this weekend to have some damn fun without all the pressure of a huge party involved. You're such an incredible friend and I'm so grateful to have you in my life, even through our ups and downs there's no one quite like you that I've really connected with. I'm quite confident that 26 will be full of amazing adventures and opportunities for you. Cheers to 26, make sure to have a shot for me. Love you always.❤️",
   "openWhenIntro": "These notes are some thoughts, advice, opinions, words of wisdom, whatever you want to call it but i wanted to capture them in one place so you always have something to come back to. Open them all now (im not looking lol) or save them as a surprise for when youre feeling these ways, whatever you choose I hope that my words can help you feel at leeaaast 5% better.",
   "openWhen": [
@@ -50,20 +50,14 @@
     }
   ],
   "memories": [
-    {
-      "date": "2024-01-01",
-      "caption": "Placeholder caption — replace with a real memory",
-      "image": "images/placeholder-1.svg"
-    },
-    {
-      "date": "2024-06-15",
-      "caption": "Another placeholder — swap in a favorite photo",
-      "image": "images/placeholder-2.svg"
-    },
-    {
-      "date": "2024-12-25",
-      "caption": "One more placeholder — add as many as you'd like",
-      "image": "images/placeholder-3.svg"
-    }
+    "images/memory-01.jpg",
+    "images/memory-02.jpg",
+    "images/memory-03.jpg",
+    "images/memory-04.jpg",
+    "images/memory-05.jpg",
+    "images/memory-06.jpg",
+    "images/memory-07.jpg",
+    "images/memory-08.jpg",
+    "images/memory-09.jpg"
   ]
 }

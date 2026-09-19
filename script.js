@@ -77,7 +77,6 @@
     const titleEl = document.getElementById('note-card-title');
     const messageEl = document.getElementById('note-card-message');
     const imageEl = document.getElementById('note-card-image');
-    const linkEl = document.getElementById('note-card-link');
 
     titleEl.textContent = card.label || '';
     messageEl.textContent = card.message || '';
@@ -91,14 +90,6 @@
       imageEl.removeAttribute('src');
     }
 
-    if (card.link) {
-      linkEl.href = card.link;
-      linkEl.hidden = false;
-    } else {
-      linkEl.hidden = true;
-      linkEl.removeAttribute('href');
-    }
-
     showOverlay(overlay);
   }
 
@@ -108,7 +99,7 @@
     const grid = document.getElementById('memory-grid');
     grid.innerHTML = '';
 
-    memories.forEach((memory) => {
+    memories.forEach((image, index) => {
       const card = document.createElement('button');
       card.type = 'button';
       card.className = 'memory-card';
@@ -117,43 +108,25 @@
       imageWrap.className = 'memory-card__image-wrap';
 
       const img = document.createElement('img');
-      img.src = memory.image || '';
-      img.alt = memory.caption || '';
+      img.src = image;
+      img.alt = `Memory photo ${index + 1}`;
       img.loading = 'lazy';
       imageWrap.appendChild(img);
 
-      const body = document.createElement('div');
-      body.className = 'memory-card__body';
-
-      if (memory.date) {
-        const dateEl = document.createElement('span');
-        dateEl.className = 'memory-card__date';
-        dateEl.textContent = formatDate(memory.date);
-        body.appendChild(dateEl);
-      }
-
-      const captionEl = document.createElement('p');
-      captionEl.className = 'memory-card__caption';
-      captionEl.textContent = memory.caption || '';
-      body.appendChild(captionEl);
-
       card.appendChild(imageWrap);
-      card.appendChild(body);
 
-      card.addEventListener('click', () => openLightbox(memory));
+      card.addEventListener('click', () => openLightbox(image));
 
       grid.appendChild(card);
     });
   }
 
-  function openLightbox(memory) {
+  function openLightbox(image) {
     const overlay = document.getElementById('lightbox-overlay');
     const imageEl = document.getElementById('lightbox-image');
-    const captionEl = document.getElementById('lightbox-caption');
 
-    imageEl.src = memory.image || '';
-    imageEl.alt = memory.caption || '';
-    captionEl.textContent = [formatDate(memory.date), memory.caption].filter(Boolean).join(' — ');
+    imageEl.src = image;
+    imageEl.alt = '';
 
     showOverlay(overlay);
   }
