@@ -47,15 +47,12 @@ Add a new object to the `memories` array:
 
 Put the actual photo file in the `images/` folder first, then reference its filename here.
 
-### Add a letter
+### Edit the "Happy Birthday" note
 
-Add a new object to the `letters` array:
+Change the `birthdayNote` field at the top of `content.json`:
 
 ```json
-{
-  "title": "A New Letter",
-  "body": "The letter text.\n\nUse \\n\\n (a blank line) to start a new paragraph."
-}
+"birthdayNote": "The message text that appears in the Happy Birthday card."
 ```
 
 ### Updating the "last updated" date

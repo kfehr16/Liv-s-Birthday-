@@ -17,9 +17,9 @@
 
     if (content) {
       renderWelcome(content);
+      renderBirthdayNote(content);
       renderOpenWhen(content.openWhen || []);
       renderMemories(content.memories || []);
-      renderLetters(content.letters || []);
       renderFooter(content);
     }
 
@@ -161,28 +161,11 @@
     return date.toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' });
   }
 
-  // ---------- Letters ----------
+  // ---------- Happy Birthday Note ----------
 
-  function renderLetters(letters) {
-    const list = document.getElementById('letters-list');
-    list.innerHTML = '';
-
-    letters.forEach((letter) => {
-      const card = document.createElement('article');
-      card.className = 'letter-card';
-
-      const title = document.createElement('h3');
-      title.className = 'handwritten letter-card__title';
-      title.textContent = letter.title || '';
-
-      const body = document.createElement('p');
-      body.className = 'letter-card__body';
-      body.textContent = letter.body || '';
-
-      card.appendChild(title);
-      card.appendChild(body);
-      list.appendChild(card);
-    });
+  function renderBirthdayNote(content) {
+    const messageEl = document.getElementById('birthday-note-message');
+    messageEl.textContent = content.birthdayNote || '';
   }
 
   // ---------- Footer ----------
