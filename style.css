@@ -78,7 +78,7 @@ button {
 
 .open-when-intro {
   max-width: 640px;
-  margin: 0 auto 2rem;
+  margin: 0.75rem auto 2rem;
   text-align: center;
   color: var(--color-text);
   font-size: 0.95rem;
@@ -205,6 +205,7 @@ button {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1.25rem;
+  margin-top: 1.75rem;
 }
 
 .memory-card {
@@ -276,7 +277,7 @@ button {
   margin: 0;
   white-space: pre-line;
   font-size: 1.05rem;
-  text-align: left;
+  text-align: center;
 }
 
 /* ---------- Footer ---------- */
@@ -295,6 +296,13 @@ button {
 .footer__updated {
   font-size: 0.85rem;
   margin: 0;
+}
+
+.footer__credit {
+  margin: 1.5rem 0 0;
+  font-size: 0.75rem;
+  color: var(--color-text-soft);
+  text-align: center;
 }
 
 /* ---------- Overlays (note + lightbox) ---------- */
